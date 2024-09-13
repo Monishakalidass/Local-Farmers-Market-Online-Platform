@@ -1,0 +1,45 @@
+/* Delivery.css */
+
+/* Style the delivery form container */
+.delivery-container {
+  height: 100vh;
+  background-color: gray;
+  display: flex;
+}
+.delivery-form-content{
+  width: 5  0%;
+}
+
+/* Style the delivery form */
+/* Increase the size of the card */
+.delivery-form {
+  height: 90%; /* Increase the height to 90% or adjust as needed */
+  width: 95%; /* Increase the width to 95% or adjust as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  margin-top: 60px;
+}
+
+
+/* Style the delivery form title */
+.delivery-form-title {
+  font-size: 24px;
+}
+
+/* Style the delivery form input groups */
+.delivery-form-group {
+  margin: 10px 0;
+}
+
+/* Style the delivery form button */
+.delivery-btn {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
